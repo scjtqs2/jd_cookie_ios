@@ -9,64 +9,26 @@
 /* Begin PBXBuildFile section */
 		DACF863A28864E41004F102B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF863928864E41004F102B /* AppDelegate.swift */; };
 		DACF863C28864E41004F102B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF863B28864E41004F102B /* SceneDelegate.swift */; };
-		DACF863E28864E41004F102B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF863D28864E41004F102B /* ViewController.swift */; };
+		DACF863E28864E41004F102B /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF863D28864E41004F102B /* WebViewVC.swift */; };
 		DACF864128864E41004F102B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACF863F28864E41004F102B /* Main.storyboard */; };
 		DACF864328864E42004F102B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACF864228864E42004F102B /* Assets.xcassets */; };
 		DACF864628864E42004F102B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACF864428864E42004F102B /* LaunchScreen.storyboard */; };
-		DACF865128864E43004F102B /* Hcl_JD_ck_GetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF865028864E43004F102B /* Hcl_JD_ck_GetTests.swift */; };
-		DACF865B28864E43004F102B /* Hcl_JD_ck_GetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF865A28864E43004F102B /* Hcl_JD_ck_GetUITests.swift */; };
-		DACF865D28864E43004F102B /* Hcl_JD_ck_GetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF865C28864E43004F102B /* Hcl_JD_ck_GetUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DACF864D28864E43004F102B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DACF862E28864E41004F102B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DACF863528864E41004F102B;
-			remoteInfo = "Hcl JD ck Get";
-		};
-		DACF865728864E43004F102B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DACF862E28864E41004F102B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DACF863528864E41004F102B;
-			remoteInfo = "Hcl JD ck Get";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		DA4047D62886B0B60046C5FB /* Hcl JD ck Get.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hcl JD ck Get.entitlements"; sourceTree = "<group>"; };
 		DACF863628864E41004F102B /* Hcl JD ck Get.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hcl JD ck Get.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACF863928864E41004F102B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACF863B28864E41004F102B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DACF863D28864E41004F102B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACF863D28864E41004F102B /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		DACF864028864E41004F102B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DACF864228864E42004F102B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACF864528864E42004F102B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACF864728864E42004F102B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACF864C28864E43004F102B /* Hcl JD ck GetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hcl JD ck GetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DACF865028864E43004F102B /* Hcl_JD_ck_GetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hcl_JD_ck_GetTests.swift; sourceTree = "<group>"; };
-		DACF865628864E43004F102B /* Hcl JD ck GetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hcl JD ck GetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DACF865A28864E43004F102B /* Hcl_JD_ck_GetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hcl_JD_ck_GetUITests.swift; sourceTree = "<group>"; };
-		DACF865C28864E43004F102B /* Hcl_JD_ck_GetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hcl_JD_ck_GetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DACF863328864E41004F102B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DACF864928864E43004F102B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DACF865328864E43004F102B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				DACF863828864E41004F102B /* Hcl JD ck Get */,
-				DACF864F28864E43004F102B /* Hcl JD ck GetTests */,
-				DACF865928864E43004F102B /* Hcl JD ck GetUITests */,
 				DACF863728864E41004F102B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				DACF863628864E41004F102B /* Hcl JD ck Get.app */,
-				DACF864C28864E43004F102B /* Hcl JD ck GetTests.xctest */,
-				DACF865628864E43004F102B /* Hcl JD ck GetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +57,16 @@
 		DACF863828864E41004F102B /* Hcl JD ck Get */ = {
 			isa = PBXGroup;
 			children = (
+				DA4047D62886B0B60046C5FB /* Hcl JD ck Get.entitlements */,
 				DACF863928864E41004F102B /* AppDelegate.swift */,
 				DACF863B28864E41004F102B /* SceneDelegate.swift */,
-				DACF863D28864E41004F102B /* ViewController.swift */,
+				DACF863D28864E41004F102B /* WebViewVC.swift */,
 				DACF863F28864E41004F102B /* Main.storyboard */,
 				DACF864228864E42004F102B /* Assets.xcassets */,
 				DACF864428864E42004F102B /* LaunchScreen.storyboard */,
 				DACF864728864E42004F102B /* Info.plist */,
 			);
 			path = "Hcl JD ck Get";
-			sourceTree = "<group>";
-		};
-		DACF864F28864E43004F102B /* Hcl JD ck GetTests */ = {
-			isa = PBXGroup;
-			children = (
-				DACF865028864E43004F102B /* Hcl_JD_ck_GetTests.swift */,
-			);
-			path = "Hcl JD ck GetTests";
-			sourceTree = "<group>";
-		};
-		DACF865928864E43004F102B /* Hcl JD ck GetUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DACF865A28864E43004F102B /* Hcl_JD_ck_GetUITests.swift */,
-				DACF865C28864E43004F102B /* Hcl_JD_ck_GetUITestsLaunchTests.swift */,
-			);
-			path = "Hcl JD ck GetUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +89,6 @@
 			productReference = DACF863628864E41004F102B /* Hcl JD ck Get.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DACF864B28864E43004F102B /* Hcl JD ck GetTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DACF866328864E43004F102B /* Build configuration list for PBXNativeTarget "Hcl JD ck GetTests" */;
-			buildPhases = (
-				DACF864828864E43004F102B /* Sources */,
-				DACF864928864E43004F102B /* Frameworks */,
-				DACF864A28864E43004F102B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DACF864E28864E43004F102B /* PBXTargetDependency */,
-			);
-			name = "Hcl JD ck GetTests";
-			productName = "Hcl JD ck GetTests";
-			productReference = DACF864C28864E43004F102B /* Hcl JD ck GetTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DACF865528864E43004F102B /* Hcl JD ck GetUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DACF866628864E43004F102B /* Build configuration list for PBXNativeTarget "Hcl JD ck GetUITests" */;
-			buildPhases = (
-				DACF865228864E43004F102B /* Sources */,
-				DACF865328864E43004F102B /* Frameworks */,
-				DACF865428864E43004F102B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DACF865828864E43004F102B /* PBXTargetDependency */,
-			);
-			name = "Hcl JD ck GetUITests";
-			productName = "Hcl JD ck GetUITests";
-			productReference = DACF865628864E43004F102B /* Hcl JD ck GetUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +101,6 @@
 				TargetAttributes = {
 					DACF863528864E41004F102B = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					DACF864B28864E43004F102B = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = DACF863528864E41004F102B;
-					};
-					DACF865528864E43004F102B = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = DACF863528864E41004F102B;
 					};
 				};
 			};
@@ -220,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				DACF863528864E41004F102B /* Hcl JD ck Get */,
-				DACF864B28864E43004F102B /* Hcl JD ck GetTests */,
-				DACF865528864E43004F102B /* Hcl JD ck GetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +133,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF864A28864E43004F102B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DACF865428864E43004F102B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,43 +140,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACF863E28864E41004F102B /* ViewController.swift in Sources */,
+				DACF863E28864E41004F102B /* WebViewVC.swift in Sources */,
 				DACF863A28864E41004F102B /* AppDelegate.swift in Sources */,
 				DACF863C28864E41004F102B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF864828864E43004F102B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DACF865128864E43004F102B /* Hcl_JD_ck_GetTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DACF865228864E43004F102B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DACF865B28864E43004F102B /* Hcl_JD_ck_GetUITests.swift in Sources */,
-				DACF865D28864E43004F102B /* Hcl_JD_ck_GetUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DACF864E28864E43004F102B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DACF863528864E41004F102B /* Hcl JD ck Get */;
-			targetProxy = DACF864D28864E43004F102B /* PBXContainerItemProxy */;
-		};
-		DACF865828864E43004F102B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DACF863528864E41004F102B /* Hcl JD ck Get */;
-			targetProxy = DACF865728864E43004F102B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DACF863F28864E41004F102B /* Main.storyboard */ = {
@@ -435,6 +287,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hcl JD ck Get/Hcl JD ck Get.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9LG24DCVT9;
@@ -452,6 +306,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scjtqs.Hcl-JD-ck-Get";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,6 +319,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hcl JD ck Get/Hcl JD ck Get.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9LG24DCVT9;
@@ -480,85 +338,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scjtqs.Hcl-JD-ck-Get";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DACF866428864E43004F102B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LG24DCVT9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scjtqs.Hcl-JD-ck-GetTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hcl JD ck Get.app/Hcl JD ck Get";
-			};
-			name = Debug;
-		};
-		DACF866528864E43004F102B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LG24DCVT9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scjtqs.Hcl-JD-ck-GetTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hcl JD ck Get.app/Hcl JD ck Get";
-			};
-			name = Release;
-		};
-		DACF866728864E43004F102B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LG24DCVT9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scjtqs.Hcl-JD-ck-GetUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Hcl JD ck Get";
-			};
-			name = Debug;
-		};
-		DACF866828864E43004F102B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LG24DCVT9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scjtqs.Hcl-JD-ck-GetUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Hcl JD ck Get";
 			};
 			name = Release;
 		};
@@ -579,24 +363,6 @@
 			buildConfigurations = (
 				DACF866128864E43004F102B /* Debug */,
 				DACF866228864E43004F102B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DACF866328864E43004F102B /* Build configuration list for PBXNativeTarget "Hcl JD ck GetTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DACF866428864E43004F102B /* Debug */,
-				DACF866528864E43004F102B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DACF866628864E43004F102B /* Build configuration list for PBXNativeTarget "Hcl JD ck GetUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DACF866728864E43004F102B /* Debug */,
-				DACF866828864E43004F102B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
