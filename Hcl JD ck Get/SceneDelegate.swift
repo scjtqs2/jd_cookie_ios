@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,7 +17,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+
+        // Use a UIHostingController as window root view controller
+        if let windowScene = scene as? UIWindowScene {
+            var openurl = UserDefaults.standard.string(forKey: "OPENURL")
+            var posturl = UserDefaults.standard.string(forKey: "POSTURL")
+            if openurl == nil || openurl!.isEmpty {
+                openurl = "https://m.jd.com"
+            }
+            if posturl == nil || posturl!.isEmpty {
+                posturl = "https://jd.900109.xyz:8443/notify"
+            }
+            print("openurl:",openurl," posturl:",posturl)
+            let window = UIWindow(windowScene: windowScene)
+            window.rootViewController = UIHostingController(rootView: HomeForm(openUrl: openurl!, postUrl: posturl!))
+            self.window = window
+            window.makeKeyAndVisible()
+        } else {
+            guard let _ = (scene as? UIWindowScene) else { return }
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
