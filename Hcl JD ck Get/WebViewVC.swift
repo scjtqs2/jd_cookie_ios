@@ -48,7 +48,7 @@ class WebViewVC: UIViewController, WKUIDelegate, WKNavigationDelegate, UIWebView
         let screenSize = UIScreen.main.bounds.size
         let jumpBtn = UIButton(type: .system)
         jumpBtn.setTitle("返回", for: .normal)
-        jumpBtn.frame = CGRect(x: screenSize.width / 2 - 50, y: screenSize.height - 50, width: 100, height: 30)
+        jumpBtn.frame = CGRect(x: 0, y:  50, width: 100, height: 30)
         jumpBtn.backgroundColor = UIColor(red: 50 / 255, green: 123 / 255, blue: 255 / 255, alpha: 1)
         jumpBtn.setTitleColor(UIColor.white, for: .normal)
         // 按钮绑定事件
