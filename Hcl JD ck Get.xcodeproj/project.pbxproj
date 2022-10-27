@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		DA4047D62886B0B60046C5FB /* Hcl JD ck Get.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hcl JD ck Get.entitlements"; sourceTree = "<group>"; };
+		DA629FDC290A2094009B8E1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DA874ABC28879DDE0063D784 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA874AC62887C1200063D784 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		DA874AD72887C9F20063D784 /* FormControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormControl.swift; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		DACF862D28864E41004F102B = {
 			isa = PBXGroup;
 			children = (
+				DA629FDC290A2094009B8E1B /* README.md */,
 				DACF863828864E41004F102B /* Hcl JD ck Get */,
 				DACF863728864E41004F102B /* Products */,
 			);
