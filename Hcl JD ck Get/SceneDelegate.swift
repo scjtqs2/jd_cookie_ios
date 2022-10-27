@@ -21,10 +21,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             var openurl = UserDefaults.standard.string(forKey: "OPENURL")
             var posturl = UserDefaults.standard.string(forKey: "POSTURL")
             if openurl == nil || openurl!.isEmpty {
-                openurl = "https://m.jd.com"
+//                openurl = "https://m.jd.com"
+                openurl = "https://wx.scjtqs.com/utils/test/hcltest"
             }
             if posturl == nil || posturl!.isEmpty {
-                posturl = "https://jd.900109.xyz:8443/notify"
+//                posturl = "https://jd.900109.xyz:8443/notify"
+                posturl = "https://wx.scjtqs.com/utils/test/hclnotify"
             }
             print("openurl:", openurl, " posturl:", posturl)
             let window = UIWindow(windowScene: windowScene)
